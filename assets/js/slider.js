@@ -25,7 +25,7 @@ var $viewportWidth = Math.max(
   var slider0 = [
     { title: 2017, id: 0, members: 8 },
     { title: 2018, id: 1, members: 8 },
-    { title: 2019, id: 2, members: 8 }
+    { title: 2019, id: 2, members: 10 }
   ];
   var slider1 = [
     { title: "2011", members: "1" },
@@ -35,6 +35,7 @@ var $viewportWidth = Math.max(
     { title: "2015", members: "8" },
     { title: "2016", members: "7" }
   ];
+  
   var members2011 = [
     {
       name: "Puneet Bansal",
@@ -42,6 +43,7 @@ var $viewportWidth = Math.max(
       image: "./assets/images/members/2011-2015/PuneetBansal.jpg"
     }
   ];
+  
   var members2012 = [
     {
       name: "Aman Rai",
@@ -49,6 +51,7 @@ var $viewportWidth = Math.max(
       image: "./assets/images/members/2012-2016/AmanRai.jpg"
     }
   ];
+
   var members2013 = [
     {
       name: "Prashant Kumar",
@@ -91,6 +94,7 @@ var $viewportWidth = Math.max(
       image: "./assets/images/members/2013-2017/AbhinavRai.jpg"
     }
   ];
+
   var members2014 = [
     {
       name: "Ritik Raj",
@@ -118,6 +122,7 @@ var $viewportWidth = Math.max(
       image: "./assets/images/members/2014-2018/AyushSingh.jpg"
     }
   ];
+
   var members2015 = [
     {
       name: "Anshul Sharma",
@@ -160,6 +165,7 @@ var $viewportWidth = Math.max(
       image: "./assets/images/members/2015-2019/SoumyaManchanda.jpg"
     }
   ];
+
   var members2016 = [
     {
       name: "Saurabh Srivastava",
@@ -202,6 +208,7 @@ var $viewportWidth = Math.max(
       image: "./assets/images/members/2016-2020/SrishtiSingh.jpg"
     }
   ];
+
   var members2017 = [
     {
       name: "Ajeet Kumar",
@@ -287,47 +294,57 @@ var $viewportWidth = Math.max(
         image: "./assets/images/members/2018-2022/AnkurPatel.jpeg"
     }
   ];
-             //repeated on-purpose
+             //change here for 2nd year(name + image file)
              var members2019 = [
               {
-                  name: "Doiepak Sharma",
-                  year: "2018-2022",
-                  image: "./assets/images/members/2018-2022/DeepakSharma.jpeg"
+                  name: "Garvit Bhardwaj",
+                  year: "2019-2023",
+                  image: "./assets/images/members/2019-2023/Garvit.jpeg"
               },
               {
-                  name: "Mayank Khurmai",
-                  year: "2018-2022",
-                  image: "./assets/images/members/2018-2022/MayankKhurmai.jpeg"
+                  name: "Ishank",
+                  year: "2019-2023",
+                  image: "./assets/images/members/2019-2023/Ishank.jpeg"
               },
               {
-                  name: "Divyansh Gupta",
-                  year: "2018-2022",
-                  image: "./assets/images/members/2018-2022/DivyanshGupta.jpeg"
+                  name: "Manas Agarwal",
+                  year: "2019-2023",
+                  image: "./assets/images/members/2019-2023/Manas.jpeg"
               },
               {
-                  name: "Deeksha Gupta",
-                  year: "2018-2022",
-                  image: "./assets/images/members/2018-2022/DeekshaGupta.jpeg"
+                  name: "Anusha Singh",
+                  year: "2019-2023",
+                  image: "./assets/images/members/2019-2023/Anusha.jpeg"
               },
               {
-                  name: "Priyanshu Goel",
-                  year: "2018-2022",
-                  image: "./assets/images/members/2018-2022/PriyanshuGoel.jpeg"
+                  name: "Anushka Shukla",
+                  year: "2019-2023",
+                  image: "./assets/images/members/2019-2023/Anushka.jpeg"
               },
               {
-                  name: "Harshit",
-                  year: "2018-2022",
-                  image: "./assets/images/members/2018-2022/Harshit.jpeg"
+                  name: "Kshit Raj",
+                  year: "2019-2023",
+                  image: "./assets/images/members/2019-2023/KshitRaj.jpeg"
               },
               {
-                  name: "Rishabh Yadav",
-                  year: "2018-2022",
-                  image: "./assets/images/members/2018-2022/RishabhYadav.jpeg"
+                  name: "Vikhyat Nigam",
+                  year: "2019-2023",
+                  image: "./assets/images/members/2019-2023/RishabhYadav.jpeg"
               },
               {
-                  name: "Ankur Patel",
-                  year: "2018-2022",
-                  image: "./assets/images/members/2018-2022/AnkurPatel.jpeg"
+                  name: "Shivangi Chaudhary",
+                  year: "2019-2023",
+                  image: "./assets/images/members/2019-2023/AnkurPatel.jpeg"
+              },
+              {
+                name: "Himanshu Chaurasia",
+                year: "2019-2023",
+                image: "./assets/images/members/2019-2023/AnkurPatel.jpeg"
+              },
+              {
+                name: "Shivangi Singh",
+                year: "2019-2023",
+                image: "./assets/images/members/2019-2023/AnkurPatel.jpeg"
               }
             ];
   // checkControl() finds and sends data to check the next and previous buttons on slider
