@@ -23,9 +23,9 @@ var $viewportWidth = Math.max(
   }
   
   var slider0 = [
-    { title: 2017, id: 0, members: 8 },
-    { title: 2018, id: 1, members: 8 },
-    { title: 2019, id: 2, members: 8 }
+    { title: 2019, id: 0, members: 8 },
+    { title: 2020, id: 1, members: 10 },
+    { title: 2021, id: 2, members: 10 }
   ];
   var slider1 = [
     { title: "2011", members: "1" },
@@ -33,7 +33,9 @@ var $viewportWidth = Math.max(
     { title: "2013", members: "8" },
     { title: "2014", members: "5" },
     { title: "2015", members: "8" },
-    { title: "2016", members: "7" }
+    { title: "2016", members: "7" },
+    { title: "2017", members: "8" },
+    { title: "2018", members: "8" }
   ];
   
   var members2011 = [
@@ -337,6 +339,110 @@ var $viewportWidth = Math.max(
     image: "./assets/images/members/2019-2023/shivangi-singh.jpeg"
   }
 ];
+var members2020 = [
+  {
+    name : "Abhinav Verma",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/AbhinavVerma.jpg"
+  },
+  {
+    name : "Harsh Tripathi",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/HarshTripathi.jpg"
+  },
+  {
+    name : "Stuti Agarwal",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/StutiAgarwal.jpg"
+  },
+  {
+    name : "Prashant Tripathi",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/PrashantTripathi.jpg"
+  },
+  {
+    name : "Mohd Anas",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/MohdAnas.jpg"
+  },
+  {
+    name : "Shivam Tomar",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/ShivamTomar.jpg"
+  },
+  {
+    name : "Vaibhav Jaiswal",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/VaibhavJaiswal.jpg"
+  },
+  {
+    name : "Sajal Jain",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/SajalJain.jpg"
+  },
+  {
+    name : "Shambhavi Khare",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/ShambhaviKhare.jpg"
+  },
+  {
+    name : "Arjun Raja",
+    year: "2020-2024",
+    image: "./assets/images/members/2020-2024/ArjunRaja.jpg"
+  }
+]
+var members2021 = [
+  {
+    name : "Shabd Sahay",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/ShabdSahay.jpg"
+  },
+  {
+    name : "Vinayak Sharma",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/VinayakSharma.jpg"
+  },
+  {
+    name : "Sneha Vasishth",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/SnehaVasishth.jpg"
+  },
+  {
+    name : "Raj Gautam",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/RajGautam.jpg"
+  },
+  {
+    name : "Siddhant Mangal",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/SiddhantMangal.jpg"
+  },
+  {
+    name : "Himanshi Tripathi",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/HimanshiTripathi.jpg"
+  },
+  {
+    name : "Ayush Tripathi",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/AyushTripathi.jpg"
+  },
+  {
+    name : "Raji Gupta",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/RajiGupta.jpg"
+  },
+  {
+    name : "Abhishek Verma",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/AbhishekVerma.jpg"
+  },
+  {
+    name : "Ishita Singhal",
+    year: "2021-2025",
+    image: "./assets/images/members/2021-2025/IshitaSinghal.jpg"
+  }
+]
   // checkControl() finds and sends data to check the next and previous buttons on slider
   function checkControls() {
     $(".slider-prev").addClass("d-none");
