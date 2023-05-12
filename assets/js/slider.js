@@ -383,7 +383,7 @@ var members2020 = [
   {
     name : "Shambhavi Khare",
     year: "2020-2024",
-    image: "./assets/images/members/2020-2024/ShambhaviKhare.jpg"
+    image: "./assets/images/members/2020-2024/ShambhaviKhare.jpeg"
   },
   {
     name : "Arjun Raja",
